@@ -3,6 +3,7 @@ Simple Python tool that retrieves IP address information using VPNAPI.IO's API
 
 ![version](https://img.shields.io/badge/version-1.0-blue?style=plastic)
 ![language](https://img.shields.io/badge/language-Python3-green?style=plastic)
+![license](https://img.shields.io/badge/license-MIT-red?style=plastic)
 
 ![image_url](https://github.com/xkingrohi/ipDetect/blob/main/ipdetect_img.png)
 ## Installation
