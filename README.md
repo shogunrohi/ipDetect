@@ -1,7 +1,7 @@
 # ipDetect
 Simple Python tool that retrieves IP address information using VPNAPI.IO's API
 
-![image_url](https://github.com/xkingrohi/ipDetect/blob/main/ipDetect_mainpic.png)
+![image_url](https://github.com/xkingrohi/ipDetect/blob/main/ipdetect_img.png)
 ## Installation
 ```bash
 git clone https://github.com/xkingrohi/ipDetect.git
