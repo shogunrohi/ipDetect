@@ -17,5 +17,11 @@ pip install -r requirements.txt
 python3 ipDetect.py
 ```
 ## Usage
-
+```bash
+list - Lists all commands avaiable
+ipshow - Shows your public and private IP address
+key - Prompts you to enter api key
+detect (ip) - Gives information based of given IP
+exit - Exits the Program
+```
 
