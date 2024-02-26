@@ -76,6 +76,7 @@ class ipDetect:
                 print(Style.RESET_ALL, end="")
                 print("usage: detect (ip)")
             else:
+                self.api = config.reset(self.api)
                 self.api = self.api.replace("-",self.valid_ip(ip))
                 result = r.get(self.api)
                 result = result.json()
