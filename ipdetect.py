@@ -68,6 +68,7 @@ class ipDetect:
                 else:
                     print(key + ":", value)
 
+
     #gets results from api   
     def output(self, ip):
         try:
@@ -77,7 +78,7 @@ class ipDetect:
                 print("usage: detect (ip)")
             else:
                 self.api = config.reset(self.api)
-                self.api = self.api.replace("-",self.valid_ip(ip))
+                self.api = self.api.replace("~",self.valid_ip(ip))
                 result = r.get(self.api)
                 result = result.json()
                 self.info_present(result)
@@ -122,6 +123,7 @@ exit - Exits the Program
     
     def set_key(self):
         key = input("Enter the api key (the part after key=): ")
+        config.savekey(key)
         self.api = self.access + key
         print(Fore.GREEN + "Updated!")
         print(Style.RESET_ALL, end="")
@@ -178,7 +180,7 @@ exit - Exits the Program
    | |                                 
    |_|     
 
-     Version 1.0 - Developed by xkingrohi           
+     Version 1.1 - Developed by xkingrohi           
 
 Type{Fore.LIGHTBLUE_EX + " 'list'"}{Style.RESET_ALL} to see all commands                                                
             """
