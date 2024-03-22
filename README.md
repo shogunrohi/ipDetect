@@ -9,7 +9,7 @@ Simple Python tool that retrieves IP address information using VPNAPI.IO's API
 
 ## Installation
 ```bash
-git clone https://github.com/xkingrohi/ipDetect.git
+git clone https://github.com/shogunrohi/ipDetect.git
 cd ipDetect
 pip install -r requirements.txt
 ```
